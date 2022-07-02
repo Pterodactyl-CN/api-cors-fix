@@ -1,2 +1,3 @@
 # api-cors-fix
-给翼龙 API 添加 CORS
+
+为翼龙的 API 访问添加 CORS 标头,方便在跨域时调用API.

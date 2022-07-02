@@ -1,0 +1,19 @@
+{
+    "name": "pterodactyl-cn/api-cors-fix",
+    "description": "Fix CORS for API Endpoint",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "PterodactylCN\\Addon\\ApiFix\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PterodactylCN\\Addon\\ApiFix\\ApiFixServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
